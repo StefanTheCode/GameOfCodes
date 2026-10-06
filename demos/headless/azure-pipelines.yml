@@ -1,0 +1,14 @@
+# Tip 4 - headless agent as an Azure DevOps build step.
+trigger: [ main ]
+pool: { vmImage: windows-latest }
+steps:
+  - checkout: self
+    fetchDepth: 0
+  - powershell: npm install -g @anthropic-ai/claude-code
+    displayName: Install Claude CLI
+  - powershell: |
+      git diff HEAD~1 > diff.txt
+      ./demos/headless/review-diff.ps1
+    displayName: AI diff review (gates the build)
+    env:
+      ANTHROPIC_API_KEY: $(ANTHROPIC_API_KEY)   # secret pipeline variable

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "flight-reliability": {
+      "command": "dotnet",
+      "args": ["run", "--project", "src/FlightReliability.Mcp/FlightReliability.Mcp.csproj"]
+    }
+  }
+}

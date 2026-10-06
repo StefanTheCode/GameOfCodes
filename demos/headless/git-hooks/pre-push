@@ -1,0 +1,4 @@
+#!/bin/sh
+# Local gate: review before every push.
+# Install: copy to .git/hooks/pre-push (Git for Windows runs it via its bundled sh).
+powershell -NoProfile -ExecutionPolicy Bypass -File "$(git rev-parse --show-toplevel)/demos/headless/review-diff.ps1"

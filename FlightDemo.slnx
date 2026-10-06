@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="src/FlightReliability.Domain/FlightReliability.Domain.csproj" />
+  <Project Path="src/FlightReliability.Api/FlightReliability.Api.csproj" />
+  <Project Path="src/FlightReliability.Mcp/FlightReliability.Mcp.csproj" />
+  <Project Path="tests/FlightReliability.Tests/FlightReliability.Tests.csproj" />
+</Solution>
