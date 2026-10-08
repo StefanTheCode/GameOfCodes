@@ -10,5 +10,3 @@
 # --- Personal / local Claude Code settings ---
 .claude/settings.local.json
 
-# --- Demo scratch (the planted-secret file used only live) ---
-demos/headless/_leak.cs
