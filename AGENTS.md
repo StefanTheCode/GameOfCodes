@@ -1,4 +1,4 @@
-# AGENTS.md - Flight Reliability (demo)
+﻿# AGENTS.md - Flight Reliability (demo)
 
 Portable context any agent reads (Claude Code reads CLAUDE.md; `ln -s AGENTS.md CLAUDE.md`, or keep both).
 
@@ -15,4 +15,3 @@ Flight Reliability - .NET 10. `src/FlightReliability.Domain` (logic), `src/Fligh
 ## Conventions
 - Minimal APIs, no MediatR. File-scoped namespaces. Nullable + ImplicitUsings on.
 - "Done" means the tests pass (enforced by the Stop hook).
-- Do not edit files under `tests/` - fix the code, not the test (enforced by a hook).

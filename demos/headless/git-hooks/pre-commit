@@ -1,0 +1,4 @@
+#!/bin/sh
+# Local gate: review every commit before it is created.
+# Install: copy to .git/hooks/pre-commit (Git for Windows runs it via bundled sh).
+powershell -NoProfile -ExecutionPolicy Bypass -File "$(git rev-parse --show-toplevel)/demos/headless/review-diff.ps1"

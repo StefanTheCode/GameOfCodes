@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- Standalone utility. Intentionally NOT part of FlightDemo.slnx so it never
+         touches your main build or tests. Run it on its own from the FlightDemo root. -->
+  </PropertyGroup>
+</Project>

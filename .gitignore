@@ -1,0 +1,14 @@
+# --- .NET build output ---
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+
+# --- Hook dashboard runtime log (regenerated at runtime) ---
+.claude/hook-events.jsonl
+
+# --- Personal / local Claude Code settings ---
+.claude/settings.local.json
+
+# --- Demo scratch (the planted-secret file used only live) ---
+demos/headless/_leak.cs
